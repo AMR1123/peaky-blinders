@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+body{
+    background-image: linear-gradient( to right, #01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.continer{
+    width: 90%;
+    height: 640px;
+    background-image: linear-gradient( to right, #01022dd4 10%,#0000003d),url(peky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.continer:hover{
+    background-image: linear-gradient( to right, #01022d94,transparent) 
+    ,url(peky.jpg);
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo{
+    font-size: 32px;
+    text-transform: uppercase ;
+    
+}
+ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    width: 40%;
+}
+ul a{
+    border-bottom:2px solid transparent;
+    padding: 3px;
+}
+ul a:hover{
+    border-bottom-color: white;
+    color:rgb(249, 158, 40) ;
+}
+.content{
+    color: white;
+    width: 50%;
+    margin-top: 70px;
+    padding: 30px  ;
+}
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 2px;
+    width: 360px;
+padding: 10px;
+}
+.content button{
+    font-size: 25px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    margin-left:px;
+}
+.content button:hover{
+    background-color: transparent;
+    color: white;
+    border-color:white ;
+    
+
+}
